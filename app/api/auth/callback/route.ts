@@ -47,7 +47,7 @@ export async function GET(req: NextRequest)
         path: "/"
     });
 
-    return NextResponse.redirect(new URL('/', req.url), {
+    return NextResponse.redirect(process.env.ROOT_URL || "", {
         headers: {
             'Set-Cookie': serializedToken
         }
