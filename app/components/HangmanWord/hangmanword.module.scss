@@ -1,0 +1,29 @@
+.hangmanWord
+{
+    display: flex;
+    gap: .25em;
+    font-size: 6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.hangmanLetter
+{
+    border-bottom: .1em solid var(--word-underline-color);
+}
+
+.letterVisible
+{
+    visibility: visible;
+}
+
+.letterHidden
+{
+    visibility: hidden;
+}
+
+.letterRed
+{
+    color: var(--missing-letter-color)
+}

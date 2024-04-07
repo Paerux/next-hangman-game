@@ -1,0 +1,29 @@
+.hangman
+{
+    min-height: 100vh;
+    padding: 20px;
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.hangmanContainer
+{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 25px;
+    margin: 0 auto;
+    align-items: center;
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.result
+{
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+}

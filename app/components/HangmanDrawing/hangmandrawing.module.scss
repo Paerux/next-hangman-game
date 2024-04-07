@@ -1,0 +1,107 @@
+.hangmanDrawing
+{
+    position: relative;
+    margin-left: 70px;
+}
+
+.hangmanBase
+{
+    height: 10px;
+    width: 250px;
+    background-color: var(--drawing-background-color);
+}
+
+.hangmanPole
+{
+    height: 400px;
+    width: 10px;
+    background-color: var(--drawing-background-color);
+    margin-left: 120px;
+}
+
+.hangmanRope
+{
+    height: 10px;
+    width: 200px;
+    background-color: var(--drawing-background-color);
+    margin-left: 120px;
+}
+
+.hangmanDropdown
+{
+    width: 10px;
+    height: 50px;
+    background-color: var(--drawing-background-color);
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.hangmanHead
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 10px solid var(--drawing-background-color);
+    position: absolute;
+    top: 50px;
+    right: -20px;
+}
+
+.hangmanBody
+{
+    width: 10px;
+    height: 100px;
+    background-color: var(--drawing-background-color);
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.hangmanLeftArm
+{
+    width: 100px;
+    height: 10px;
+    background-color: var(--drawing-background-color);
+    position: absolute;
+    top: 150px;
+    right: 10px;
+    rotate: 30deg;
+    transform-origin: right bottom;
+}
+
+.hangmanRightArm
+{
+    width: 100px;
+    height: 10px;
+    background-color: var(--drawing-background-color);
+    position: absolute;
+    top: 150px;
+    right: -100px;
+    rotate: -30deg;
+    transform-origin: left bottom;
+}
+
+.hangmanRightLeg
+{
+    width: 100px;
+    height: 10px;
+    background-color: var(--drawing-background-color);
+    position: absolute;
+    top: 190px;
+    right: -90px;
+    rotate: 60deg;
+    transform-origin: left bottom;
+}
+
+.hangmanLeftLeg
+{
+    width: 100px;
+    height: 10px;
+    background-color: var(--drawing-background-color);
+    position: absolute;
+    top: 190px;
+    right: 0px;
+    rotate: -60deg;
+    transform-origin: right bottom;
+}

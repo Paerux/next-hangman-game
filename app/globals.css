@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body
+{
+    --accent-color: orangered;
+    --background-color: #EDF6F9;
+    --text-color: #161616;
+    --missing-letter-color: #E29578;
+    --button-text-color: black;
+    --button-background-color: #FFDDD2;
+    --button-border-color: #161616;
+    --button-active-color: #E29578;
+    --drawing-background-color: black;
+    --nav-background-color: #006D77;
+    --nav-background-color-hover: rgb(218, 55, 55);
+    --nav-text-color: white;
+    --nav-text-color-hover: white;
+    --word-underline-color: #161616;
+
+
+    margin: 0;
+    height: 100vh;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body.dark
+{
+    --accent-color: #ff6347;
+    --missing-letter-color: #b64fc8;
+    --background-color: #121212;
+    --text-color: white;
+    --button-text-color: #1a202c;
+    --button-background-color: #ffb2ff;
+    --button-border-color: #323439;
+    --button-active-color: #b64fc8;
+    --drawing-background-color: #b9b9b9;
+    --nav-background-color: #1e1e1e;
+    --nav-text-color: white;
+    --nav-background-color-hover: white;
+    --nav-text-color-hover: white;
+    --word-underline-color: #b9b9b9;
+}
