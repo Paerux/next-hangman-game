@@ -18,7 +18,7 @@ export async function GET(req: NextRequest)
     params.append("client_secret", process.env.ClientSecret || "");
     params.append("grant_type", "authorization_code");
     params.append("code", code.toString());
-    params.append("redirect_uri", 'http://localhost:3000/api/auth/callback');
+    params.append("redirect_uri", '/api/auth/callback');
 
     const headers = {
         'Content-Type': 'application/x-www-form-urlencoded',
